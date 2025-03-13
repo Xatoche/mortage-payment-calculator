@@ -1,5 +1,6 @@
 body {
     display: flex;
+    font-family: "Plus Jakarta Sans", sans-serif;
     justify-content: center;
 }
 
@@ -8,17 +9,6 @@ body {
     height: 58x;
     width: 100%;
 }
-
-.footers {
-    margin-top: 20px;
-    background-color: #133041;
-    height: 390px;
-    width: 100%;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
-}
-
 
 h2 {
     text-align: left;
@@ -38,9 +28,11 @@ h3 {
 
 .btn-clear {
     margin-right: 30px;
+    text-decoration: underline;
+    cursor: pointer;
 }
 
-.input-btn { 
+.input-containers { 
     text-align: center;
 }
 
@@ -77,15 +69,21 @@ h3 {
 
 
 .btn-1 {
-    height: 50px;
-    width: 250px;
+    padding: 10px;
+    width: 80%;
     border-radius: 100px;
     background-color: #D8DB2F;
+    cursor: pointer;
 }
 
-.btn {
+.button-calculate {
     display: flex;
-    justify-content: center;
+    justify-content: center;;
+    padding: 20px;
+}
+
+.img-btn-calculate {
+    width: 5%;
 }
 
 
@@ -117,34 +115,72 @@ input {
     margin-left: 10px;
 }
 
+.radio-containers {
+    text-align: center;
+    align-items: center;
+
+}
+
+.btn-radio-1 {
+    text-align: left;
+    padding: 20px;
+    border-radius: 5px;
+    width: 75%;
+    margin-left: 25px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #6B94A8;
+    cursor: pointer;
+}
+
+.btn-radio-2{
+    text-align: left;
+    padding: 20px;
+    border-radius: 5px;
+    width: 75%;
+    margin-left: 25px;
+    border-radius: 5px;
+    border: 1px solid #6B94A8;
+    cursor: pointer;
+}
+
+
 .footers-description {
     margin-left: 10px;
     color: #9ABED5;
 }
 
 
-.btn-radio-1 {
-    margin-left: 100px;
+.footers {
+    background-color: #133041;
+    height: 450px;
+    width: 100%;
+    justify-content: center;
     text-align: center;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    width: 50%;
-}
-
-.btn-radio-2{
-    margin-left: 100px;
-    text-align: center;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    width: 50%;
-    margin-bottom: 20px;
+    align-items: center;
 }
 
 .img {
-    width: 35%;
-    margin-top: 30px;
+    padding: 25px;
 }
 
-.img-btn-calculate {
-    height: 20px;
+
+@media (min-width: 820px) { 
+
+    .button-calculate {
+        display: flex;
+        justify-content: left;
+        width: 50%;
+    }
+
+    .input-term {
+        width: 50%;
+    }
+
+    .input-rate {
+        width: 50%;
+    }
+
+
+
 }

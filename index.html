@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="forms">
@@ -12,36 +15,44 @@
         <h2>Mortgage Calculator</h2>
         <a class="btn-clear"> Clear All </a>
         </div>
-        <div class="input-btn">
-            <div class="input-description">
-                <p> Mortgage Amont </p>
-            </div>
-            <span class="symbol">$</span>
-            <input class="dollars" type="text">
-            <div class="input-description">
-                <p> Mortgage Term </p>
-            </div>
-            <input class="years" type="text">
-            <span class="symbol">years</span>
-            <div class="input-description">
-                <p> Mortgage Rate </p>
-            </div>
-            <input class="pourcentage" type="text">
-            <span class="symbol">%</span>
-        </div>
-        <div class="input-description">
-            <p> Mortgage Type </p>
-        </div>
-            <div class="btn-radio-1">
-                <input name="radio" id="radio" class="radio-1" type="radio"> Repayment
+        <div class="input-containers">
+
+            <div class="input-amont">
+                <div class="input-description"> <p> Mortgage Amont </p> 
+                </div> <span class="symbol"> $ </span>
+                <input class="dollars" type="text">
             </div>
 
-            <div class="btn-radio-2">
-                <input name="radio" id="radio" class="radio-2" type="radio"> Interest Only
+            <div class="input-term">
+            <div class="input-description"> <p> Mortgage Term </p> </div>
+                <input class="years" type="text"> 
+                <span class="symbol"> years </span>
             </div>
-        <div class="btn">
+
+            <div class="input-rate">
+                <div class="input-description"> <p> Mortgage Rate </p> </div>
+                <input class="pourcentage" type="text">
+                <span class="symbol"> % </span>
+            </div>
+
+
+        </div>        
+            <div class="radio-containers">
+                <div class="input-description">
+                    <p> Mortgage Type </p>
+                </div>
+                <div class="btn-radio-1">
+                <input name="radio" id="radio" class="radio-1" type="radio"> Repayment
+                </div>
+
+                <div class="btn-radio-2">
+                <input name="radio" id="radio" class="radio-2" type="radio"> Interest Only
+                </div>
+                <div class="button-calculate">
             <button id="btn" class="btn-1"> <span> <img class="img-btn-calculate" src="./png/ph_calculator-fill.png"> </span> Calculate Repayments </button>
-        </div>
+                </div>
+            </div>
+
         <div class="footers">
             <img class="img" src="./png/Layer_1.png">
             <h3>Results shown here</h3>
