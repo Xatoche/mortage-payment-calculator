@@ -10,7 +10,10 @@ body {
 }
 
 .footers {
-    display: flex;
+    margin-top: 20px;
+    background-color: #133041;
+    height: 390px;
+    width: 100%;
     justify-content: center;
     text-align: center;
     align-items: center;
@@ -20,6 +23,11 @@ body {
 h2 {
     text-align: left;
     margin-left: 30px;
+}
+
+h3 {
+    font-size: 30px;
+    color: #FFF;
 }
 
 .text {
@@ -109,6 +117,12 @@ input {
     margin-left: 10px;
 }
 
+.footers-description {
+    margin-left: 10px;
+    color: #9ABED5;
+}
+
+
 .btn-radio-1 {
     margin-left: 100px;
     text-align: center;
@@ -126,3 +140,11 @@ input {
     margin-bottom: 20px;
 }
 
+.img {
+    width: 35%;
+    margin-top: 30px;
+}
+
+.img-btn-calculate {
+    height: 20px;
+}
