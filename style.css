@@ -1,0 +1,128 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.forms {
+    background-color: #FFF;
+    height: 58x;
+    width: 100%;
+}
+
+.footers {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+
+h2 {
+    text-align: left;
+    margin-left: 30px;
+}
+
+.text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn-clear {
+    margin-right: 30px;
+}
+
+.input-btn { 
+    text-align: center;
+}
+
+.radio {
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.dollars {
+    height: 30px;  
+    width: 75%;
+    border-radius: 4px;
+    margin-bottom: 25px;
+    border-color: #6B94A8;
+}
+
+.years {
+    height: 30px;  
+    width: 75%;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    border-color: #6B94A8;
+}
+
+.pourcentage {
+    height: 30px;  
+    width: 75%;
+    border-radius: 4px;
+    margin-bottom: 25px;
+    border-color: #6B94A8;
+}
+
+
+
+.btn-1 {
+    height: 50px;
+    width: 250px;
+    border-radius: 100px;
+    background-color: #D8DB2F;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+}
+
+
+.input-container {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px;
+    width: 200px;
+}
+
+.symbol {
+    background: #e6f2ff;
+    padding: 13px 15px;
+    border-right: 1px solid #ccc;
+    border: 1px solid #ccc;
+    font-size: 15px;
+}
+
+input {
+    outline: none;
+    padding: 5px;
+    flex: 1;
+}
+
+.input-description {
+    display: flex;
+    margin-left: 10px;
+}
+
+.btn-radio-1 {
+    margin-left: 100px;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 50%;
+}
+
+.btn-radio-2{
+    margin-left: 100px;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 50%;
+    margin-bottom: 20px;
+}
+
